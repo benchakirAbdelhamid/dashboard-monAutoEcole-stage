@@ -790,4 +790,14 @@ tbody{
 }
 .title_notification{
   color: var(--color-font);
+
+
+
+  .css-1nhsefc {
+  background:var(--background-app) !important;;
+  color: var(--color-font);
+}
+.css-1ab2xsx{
+  background-color: var(--background-app) !important;;
+}
 }
