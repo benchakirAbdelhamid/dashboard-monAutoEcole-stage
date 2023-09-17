@@ -244,7 +244,10 @@ const TableRoles = (props) => {
                         <b> Warning</b>
                         <br />
                         <small className=" text-[#c04b4b]">
-                        Are you sure you want to delete this item id = {PermissionsRoleValue.id}
+                        Are you sure you want to delete this item 
+                        <div className=" ml-2 center relative inline-block select-none whitespace-nowrap rounded-lg bg-red-700 py-2 px-3.5 align-baseline font-sans text-xs font-bold  leading-none text-white">
+                              id = {PermissionsRoleValue.id}
+                        </div>
                         </small>
                       </Alert>
                     </DialogBody>
